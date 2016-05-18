@@ -12,7 +12,7 @@ timezone: GMT
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://bruno12mota.github.io/hexo-documentation
+url: http://sitepoint-editors.github.io/hexo-documentation
 root: /hexo-documentation/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -69,6 +69,6 @@ theme: documentation
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/bruno12mota/hexo-documentation
+  repo: https://github.com/sitepoint-editors/hexo-documentation
   branch: gh-pages
   message: "Docs updated: {{ now('YYYY-MM-DD HH:mm:ss') }})"
